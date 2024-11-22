@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customlist scriptid="customlist_tipo_cliente">
+    <name>Tipos de Cliente</name>
+    <description>Lista de tipos de cliente para segmentación de marketing</description>
+    <isinactive>F</isinactive>
+    <isordered>T</isordered>
+    <customvalues>
+        <customvalue scriptid="val_pri">
+            <value>Principiante</value>
+            <isinactive>F</isinactive>
+            <index>1</index>
+        </customvalue>
+        <customvalue scriptid="val_int">
+            <value>Intermedio</value>
+            <isinactive>F</isinactive>
+            <index>2</index>
+        </customvalue>
+        <customvalue scriptid="val_ava">
+            <value>Avanzado</value>
+            <isinactive>F</isinactive>
+            <index>3</index>
+        </customvalue>
+        <customvalue scriptid="val_pro">
+            <value>Profesional</value>
+            <isinactive>F</isinactive>
+            <index>4</index>
+        </customvalue>
+    </customvalues>
+</customlist>

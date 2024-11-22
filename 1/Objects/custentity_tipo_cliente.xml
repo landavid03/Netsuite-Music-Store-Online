@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entitycustomfield scriptid="custentity_tipo_cliente">
+    <label>Tipo de Cliente</label>
+    <description>Segmentar clientes</description>
+    <fieldtype>SELECT</fieldtype>
+    <selectrecordtype>customlist_tipo_cliente</selectrecordtype>
+    
+    <displaytype>NORMAL</displaytype>
+    <ismandatory>T</ismandatory>
+    <storevalue>T</storevalue>
+    <isinactive>F</isinactive>
+    
+    <showinlist>T</showinlist>
+    <searchlevel>2</searchlevel>
+    <accesslevel>2</accesslevel>
+    
+    <appliestocustomer>T</appliestocustomer>
+    
+    <isformula>F</isformula>
+</entitycustomfield>

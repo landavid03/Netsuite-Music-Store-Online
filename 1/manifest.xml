@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+    <filecabinet>
+        <folder>SuiteScripts</folder>
+    </filecabinet>
+    <dependencies>
+        <features>
+            <feature required="true">CUSTOMRECORDS</feature>
+        </features>
+    </dependencies>
+    <objects>
+        <customlist>
+            <scriptid>customlist_tipo_cliente</scriptid>
+        </customlist>
+        <entitycustomfield>
+            <scriptid>custentity_tipo_cliente</scriptid>
+        </entitycustomfield>
+    </objects>
+</manifest>
